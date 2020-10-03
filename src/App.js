@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -8,6 +8,7 @@ import NavLayout from "./layouts/NavLayout";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import MapPage from "./pages/MapPage";
+import GlobePage from "./pages/GlobePage";
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
         </Route>
         <Route path="/map">
           <MapPage />
+        </Route>
+        <Route path="/globe">
+          <GlobePage />
         </Route>
         <Route path="/">
           <HomePage />

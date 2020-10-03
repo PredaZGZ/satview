@@ -67,6 +67,15 @@ export default class NavLayout extends Component {
                   Map
                 </NavLink>
               </li>
+              <li className="nav-item">
+                <NavLink
+                  className="nav-link"
+                  to="/globe"
+                  activeClassName="active"
+                >
+                  Globe
+                </NavLink>
+              </li>
             </ul>
           </div>
         </nav>
