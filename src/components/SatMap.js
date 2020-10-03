@@ -18,7 +18,7 @@ export default class SatMap extends Component {
   sats = [];
   render() {
     return (
-      <div className="map">
+      <div className="SatMap">
         <Map
           className="map"
           worldCopyJump={true}
